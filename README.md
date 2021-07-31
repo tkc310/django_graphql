@@ -13,8 +13,12 @@ $ python3 manage.py migrate
 # start server
 $ python3 manage.py runserver
 
-# open
-open http://localhost:8000/graphql
+# open graphql console
+$ open http://localhost:8000/graphql
+
+# add admin user & open admin
+$ python3 manage.py createsuperuser
+$ open http://localhost:8000/admin
 ```
 
 ## GraphQL Usage
