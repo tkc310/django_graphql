@@ -16,6 +16,9 @@ $ python3 manage.py runserver
 # open graphql console
 $ open http://localhost:8000/graphql
 
+# output schema.graphql
+$ python3 manage.py graphql_schema --schema django_graphql.schema.schema --out schema.graphql
+
 # add admin user & open admin
 $ python3 manage.py createsuperuser
 $ open http://localhost:8000/admin
