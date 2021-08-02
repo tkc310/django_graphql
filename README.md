@@ -50,3 +50,10 @@ mutation {
   }
 }
 ```
+
+## Memo
+
+```
+# add maigration file
+$ python3 manage.py makemigrations
+```
